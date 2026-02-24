@@ -9,14 +9,13 @@
 </head>
 
 <body>
-  
 
   <!-- Header -->
   <header class="header" id="home">
     <nav class="nav container">
+      <!-- Sem logo: apenas nome -->
       <a class="brand" href="#home" aria-label="Ir para o início">
-   
-        <span class="brand__name"></span>
+        <span class="brand__name">Vértice Advocacia</span>
       </a>
 
       <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
@@ -27,12 +26,13 @@
         <li><a href="#home" class="nav__link">Home</a></li>
         <li><a href="#sobre" class="nav__link">Sobre</a></li>
         <li><a href="#servicos" class="nav__link">Serviços</a></li>
+        <li><a href="#duvidas" class="nav__link">Dúvidas</a></li>
         <li><a href="#contato" class="nav__link nav__cta">Contato</a></li>
       </ul>
     </nav>
 
     <!-- Hero -->
-    <section class="hero container">
+    <section class="hero container reveal">
       <div class="hero__content">
         <p class="eyebrow">Atendimento rápido • Transparência • Estratégia</p>
         <h1>Seu caso merece estratégia, clareza e ação do primeiro contato ao resultado.</h1>
@@ -48,66 +48,70 @@
 
         <div class="hero__trust">
           <div class="trust__item">
-            <strong>+ de 10 anos</strong>
-            <span>experiência consolidada</span>
+            <strong>Atendimento ágil</strong>
+            <span>resposta com direcionamento</span>
           </div>
           <div class="trust__item">
-            <strong>Atendimento humano</strong>
-            <span>sem juridiquês</span>
+            <strong>Sem juridiquês</strong>
+            <span>clareza em cada etapa</span>
           </div>
           <div class="trust__item">
-            <strong>100% transparente</strong>
-            <span>você entende cada passo</span>
+            <strong>Estratégia</strong>
+            <span>decisões com segurança</span>
           </div>
         </div>
       </div>
 
-      <div class="hero__card" aria-label="Destaques do escritório">
+      <div class="hero__card">
         <div class="card">
-          <h3>Por que escolher a Vértice?</h3>
+          <h3>O que você recebe</h3>
           <ul class="checklist">
             <li>Diagnóstico objetivo do seu cenário</li>
             <li>Plano de ação com prazos e riscos claros</li>
             <li>Comunicação constante e documentação organizada</li>
-            <li>Atendimento presencial e online</li>
+            <li>Atendimento online e presencial sob agenda</li>
           </ul>
 
           <div class="card__note">
             <p><strong>Precisa de urgência?</strong> Clique no WhatsApp e receba orientação inicial.</p>
           </div>
 
-          <a class="btn btn--secondary" href="#contato">Falar com um advogado</a>
+          <a class="btn btn--secondary btn--full" href="#contato">Falar com um advogado</a>
         </div>
       </div>
     </section>
   </header>
 
   <!-- Sobre -->
+   <div id="title-about"">
+    <h2>Compromisso com o que importa: sua segurança jurídica.</h2>
+        <p class="muted">
+          Atuamos com abordagem prática: entender rapidamente o problema, definir uma estratégia e executar com consistência.
+          Você recebe orientação clara e acompanhamento do início ao fim — sem surpresas.
+        </p>
+        </div>
   <section class="section" id="sobre">
     <div class="container grid-2">
-       <h2>Compromisso com o que importa: sua segurança jurídica.</h2>
-        <p class="muted">
-          Nós atuamos com uma abordagem prática: entender rapidamente o problema, definir uma estratégia e executar com
-          consistência. Você recebe orientação clara e acompanhamento do início ao fim — sem surpresas.
-        </p>
-      <div>
+      <div class="reveal about-head">
+       
+
         <div class="highlights">
-          <div class="highlight">
+          <div class="highlight reveal">
             <h4>Atendimento consultivo</h4>
             <p>Você entende o cenário, as opções e o melhor caminho antes de decidir.</p>
           </div>
-          <div class="highlight">
+          <div class="highlight reveal">
             <h4>Estratégia e prevenção</h4>
-            <p>Menos risco hoje, menos dor de cabeça amanhã. A gente trabalha para evitar problemas.</p>
+            <p>Menos risco hoje, menos dor de cabeça amanhã. Trabalhamos para evitar problemas.</p>
           </div>
-          <div class="highlight">
+          <div class="highlight reveal">
             <h4>Agilidade com método</h4>
-            <p>Processos bem organizados e comunicação direta para acelerar decisões.</p>
+            <p>Processos organizados e comunicação direta para acelerar decisões.</p>
           </div>
         </div>
       </div>
 
-      <div class="about-card">
+      <div class="about-card reveal">
         <div class="about-card__box">
           <h3>Como funciona</h3>
           <ol class="steps">
@@ -118,7 +122,7 @@
           </ol>
 
           <div class="callout">
-            <p><strong>Transparência:</strong> você sempre sabe “o que”, “por quê” e “o próximo passo”.</p>
+            <p><strong>Transparência:</strong> você sempre sabe “o que”, “por quê” e “qual é o próximo passo”.</p>
           </div>
         </div>
       </div>
@@ -128,17 +132,17 @@
   <!-- Serviços -->
   <section class="section section--alt" id="servicos">
     <div class="container">
-      <div class="section__head">
+      <div class="section__head reveal">
         <h2>Áreas de atuação</h2>
         <p class="muted">
-          Atendemos casos com foco em solução prática e estratégia. Se você não encontrou seu tema aqui, fale conosco.
+          Atendimento focado em solução prática e estratégia. Se você não encontrou seu tema aqui, fale conosco.
         </p>
       </div>
 
       <div class="cards">
-        <article class="service">
+        <article class="service reveal">
           <h3>Direito Cível</h3>
-          <p>Contratos, cobranças, indenizações, responsabilidade civil, negociações e ações judiciais.</p>
+          <p>Contratos, cobranças, indenizações, responsabilidade civil, negociações e ações.</p>
           <ul>
             <li>Revisão e elaboração de contratos</li>
             <li>Acordos e mediação</li>
@@ -146,7 +150,7 @@
           </ul>
         </article>
 
-        <article class="service">
+        <article class="service reveal">
           <h3>Direito Trabalhista</h3>
           <p>Defesa de direitos e prevenção de riscos. Atendimento para pessoas e empresas.</p>
           <ul>
@@ -156,27 +160,27 @@
           </ul>
         </article>
 
-        <article class="service">
-          <h3>Direito de Família</h3>
+        <article class="service reveal">
+          <h3>Família e Sucessões</h3>
           <p>Atuação sensível e estratégica em momentos delicados, com discrição e clareza.</p>
           <ul>
             <li>Divórcio e partilha</li>
             <li>Guarda e pensão</li>
-            <li>Inventário e sucessões</li>
+            <li>Inventário</li>
           </ul>
         </article>
 
-        <article class="service">
+        <article class="service reveal">
           <h3>Direito do Consumidor</h3>
           <p>Proteção do seu direito com abordagem objetiva para resolver rápido.</p>
           <ul>
             <li>Cobranças indevidas</li>
             <li>Produtos/serviços com defeito</li>
-            <li>Negativações e bancos</li>
+            <li>Negativação e bancos</li>
           </ul>
         </article>
 
-        <article class="service">
+        <article class="service reveal">
           <h3>Empresarial</h3>
           <p>Estruture e proteja sua empresa com documentos e decisões seguras.</p>
           <ul>
@@ -186,18 +190,18 @@
           </ul>
         </article>
 
-        <article class="service">
+        <article class="service reveal">
           <h3>Consultoria & Compliance</h3>
           <p>Políticas internas, adequações e suporte estratégico para reduzir riscos.</p>
           <ul>
             <li>Mapeamento de riscos</li>
             <li>Políticas e procedimentos</li>
-            <li>Treinamentos e orientação</li>
+            <li>Treinamentos</li>
           </ul>
         </article>
       </div>
 
-      <div class="cta-strip">
+      <div class="cta-strip reveal">
         <div>
           <h3>Quer um diagnóstico rápido do seu caso?</h3>
           <p class="muted">Explique sua situação e receba direcionamento claro dos próximos passos.</p>
@@ -207,35 +211,49 @@
     </div>
   </section>
 
-  <!-- Depoimentos -->
-  <section class="section" id="depoimentos">
+  <!-- Dúvidas (FAQ) -->
+  <section class="section" id="duvidas">
     <div class="container">
-      <div class="section__head">
-        <h2>O que clientes dizem</h2>
-        <p class="muted">Resultados sustentáveis vêm de método, comunicação e estratégia.</p>
+      <div class="section__head reveal">
+        <h2>Dúvidas frequentes</h2>
+        <p class="muted">Respostas diretas para você entender o caminho antes de decidir.</p>
       </div>
 
-      <div class="testimonials">
-        <figure class="quote">
-          <blockquote>
-            “Fui atendido com clareza e rapidez. Explicaram tudo sem complicar e meu caso avançou muito mais do que eu esperava.”
-          </blockquote>
-          <figcaption>— Cliente, atendimento cível</figcaption>
-        </figure>
+      <div class="faq">
+        <details class="faq__item reveal">
+          <summary class="faq__q">Como funciona a primeira avaliação?</summary>
+          <div class="faq__a">
+            Fazemos uma análise inicial do seu caso, entendemos objetivos e documentos essenciais e indicamos um plano de ação com próximos passos.
+          </div>
+        </details>
 
-        <figure class="quote">
-          <blockquote>
-            “Equipe extremamente profissional. Transparência total, sempre me avisavam o próximo passo e o que poderia acontecer.”
-          </blockquote>
-          <figcaption>— Cliente, família e sucessões</figcaption>
-        </figure>
+        <details class="faq__item reveal">
+          <summary class="faq__q">O atendimento é online?</summary>
+          <div class="faq__a">
+            Sim. Atendemos online para todo o Brasil. Atendimento presencial pode ser agendado conforme disponibilidade.
+          </div>
+        </details>
 
-        <figure class="quote">
-          <blockquote>
-            “Contratamos consultoria para a empresa e reduziu bastante nosso risco. Processos internos ficaram mais organizados.”
-          </blockquote>
-          <figcaption>— Cliente, consultoria empresarial</figcaption>
-        </figure>
+        <details class="faq__item reveal">
+          <summary class="faq__q">Quais documentos eu preciso enviar?</summary>
+          <div class="faq__a">
+            Depende do caso, mas normalmente pedimos contratos, comprovantes, conversas relevantes, notificações e documentos pessoais. Você recebe uma lista objetiva.
+          </div>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary class="faq__q">Vocês informam riscos e prazos?</summary>
+          <div class="faq__a">
+            Sim. Você recebe uma visão clara de riscos, alternativas e prazos realistas para tomar decisão com segurança.
+          </div>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary class="faq__q">Como é feito o orçamento?</summary>
+          <div class="faq__a">
+            Após entender o caso e a estratégia, apresentamos proposta transparente (escopo, etapas, prazos e valores).
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -243,7 +261,7 @@
   <!-- Contato -->
   <section class="section section--alt" id="contato">
     <div class="container grid-2">
-      <div>
+      <div class="reveal">
         <h2>Fale conosco</h2>
         <p class="muted">
           Conte rapidamente sua situação. Retornamos com orientação inicial e próximos passos.
@@ -263,13 +281,14 @@
             <span class="label">Endereço</span>
             <span class="value">Sua cidade • Seu estado</span>
           </div>
+
           <p class="small muted">
             * Este site tem finalidade informativa e não substitui uma consulta jurídica formal.
           </p>
         </div>
       </div>
 
-      <div class="form-card">
+      <div class="form-card reveal">
         <form id="leadForm" novalidate>
           <h3>Solicitar contato</h3>
 
@@ -294,7 +313,7 @@
               <option value="" selected>Selecione</option>
               <option>Direito Cível</option>
               <option>Direito Trabalhista</option>
-              <option>Direito de Família</option>
+              <option>Família e Sucessões</option>
               <option>Direito do Consumidor</option>
               <option>Empresarial</option>
               <option>Consultoria & Compliance</option>
@@ -320,16 +339,14 @@
     <div class="container footer__content">
       <div>
         <div class="brand brand--footer">
-          <span class="brand__mark">V</span>
-          <span class="brand__name">Vértice</span>
-          <span class="brand__sub">Advocacia</span>
+          <span class="brand__name">Vértice Advocacia</span>
+          <span class="brand__sub">Estratégia • Segurança • Resultado</span>
         </div>
         <p class="muted small">
           Advocacia estratégica com foco em clareza, segurança jurídica e resultado.
         </p>
       </div>
 
-  
       <div class="footer__copy small muted">
         <span>© <span id="year"></span> Vértice Advocacia. Todos os direitos reservados.</span>
       </div>
@@ -340,22 +357,7 @@
   <a class="whatsapp" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer" aria-label="Falar no WhatsApp">
     WhatsApp
   </a>
-  <!-- Top bar -->
-  <div class="topbar">
-    <div class="container topbar__content">
-      <div class="topbar__left">
-        <span>Atendimento</span>
-        <a href="tel:+5500000000000">(00) 00000-0000</a>
-        <span class="dot"></span>
-        <a href="mailto:contato@verticeadvocacia.com.br">contato@verticeadvocacia.com.br</a>
-      </div>
-      <div class="topbar__right">
-        <span class="badge">Consultoria inicial sob avaliação</span>
-      </div>
-    </div>
-  </div>
 
   <script src="script.js"></script>
-  <script src="scroll.js"></script>
 </body>
 </html>
