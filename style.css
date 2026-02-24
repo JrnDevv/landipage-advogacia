@@ -465,6 +465,16 @@ input:focus, select:focus, textarea:focus{
   opacity: 1;
   transform: translateY(0);
 }
+
+#title-service{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#title-service p{
+  max-width: 700px;
+  margin: 10px auto 0;
+}
 @media (prefers-reduced-motion: reduce){
   .reveal, .reveal.is-visible{
     transition: none !important;
